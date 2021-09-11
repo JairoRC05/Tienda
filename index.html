@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Tienda</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid bg-warning d-flex justify-content-between sticky-top">
+            <h3>SALU</h5>
+                <h3 class="shoppingCartTotal">$0</h3>
+
+        </div>
+
+
+        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                    aria-selected="true">Pedido</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                    aria-controls="profile" aria-selected="false">Cuenta</a>
+            </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+                <!-- START SECTION STORE -->
+                <section class="store">
+                    <div class="container">
+
+
+                        <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tortas" role="tab"
+                                    aria-controls="home" aria-selected="true">T</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#baguettes" role="tab"
+                                    aria-controls="profile" aria-selected="false">B</a>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#enchiladas" role="tab"
+                                    aria-controls="contact" aria-selected="false">H</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#burritos" role="tab"
+                                    aria-controls="contact" aria-selected="false">V</a>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#extras" role="tab"
+                                    aria-controls="contact" aria-selected="false">E</a>
+                            </li>
+                        </ul>
+
+
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tortas" role="tabpanel"
+                                aria-labelledby="home-tab">
+                                <div class="items">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T HUEVO</h6>
+                                                    <h6 class="item-price">$35</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T JAMÓN</h6>
+                                                    <h6 class="item-price">$35</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T QUESO DE PUERCO</h6>
+                                                    <h6 class="item-price">$35</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T SALCHICHA</h6>
+                                                    <h6 class="item-price">$42</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T HUEVO CON JAMÓN</h6>
+                                                    <h6 class="item-price">$48</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T JAMÓN CON QUESO</h6>
+                                                    <h6 class="item-price">$48</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T CHORIZO</h6>
+                                                    <h6 class="item-price">$54</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T PIERNA</h6>
+                                                    <h6 class="item-price">$54</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T POLLO</h6>
+                                                    <h6 class="item-price">$56</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T MILANESA</h6>
+                                                    <h6 class="item-price">$56</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T BISTEC CON QUESO</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T ARGENTINA</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T CUBANA</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T HAWAIANA</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T PASTOR</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T RANCHERA</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="item">
+                                                <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                                <div class="item-details">
+                                                    <h6 class="item-title">T RUSA</h6>
+                                                    <h6 class="item-price">$69</h6>
+                                                    <button class="item-button btn btn-primary addToCart"><i
+                                                            class="fas fa-plus-circle"></i></button>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="baguettes" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B HUEVO</h6>
+                                                <h6 class="item-price">$52</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B JAMÓN</h6>
+                                                <h6 class="item-price">$52</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B QUESO DE PUERCO</h6>
+                                                <h6 class="item-price">$52</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B SALCHICHA</h6>
+                                                <h6 class="item-price">$62</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B HUEVO CON JAMÓN</h6>
+                                                <h6 class="item-price">$65</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B JAMÓN CON QUESO</h6>
+                                                <h6 class="item-price">$65</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B CHORIZO</h6>
+                                                <h6 class="item-price">$75</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B PIERNA</h6>
+                                                <h6 class="item-price">$75</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B POLLO</h6>
+                                                <h6 class="item-price">$75</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B MILANESA</h6>
+                                                <h6 class="item-price">$75</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B BISTEC CON QUESO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B ARGENTINO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B CUBANO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B HAWAIANO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B PASTOR</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B RANCHERO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B RUSO</h6>
+                                                <h6 class="item-price">$89</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="tab-pane fade" id="burritos" role="tabpanel" aria-labelledby="contact-tab">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>burritos</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B BISTEC</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B CHORIZO</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B PASTOR</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B POLLO</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">B MILANESA</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <h4>enchiladas</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ORDEN 3 ECHILADAS </h6>
+                                                <h6 class="item-price">$38</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ORDEN 4 ECHILADAS</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ORDEN 6 ECHILADAS </h6>
+                                                <h6 class="item-price">$56</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <h4>HOT-DOGS</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">HT SENCILLO </h6>
+                                                <h6 class="item-price">$21</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">HT TOCINO Y QUESO</h6>
+                                                <h6 class="item-price">$21</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">HT HAWAIANO</h6>
+                                                <h6 class="item-price">$21</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">HT NORTEÑO</h6>
+                                                <h6 class="item-price">$21</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="tab-pane fade" id="enchiladas" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>HAMBURGUESAS</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H SENCILLA</h6>
+                                                <h6 class="item-price">$32</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H QUESO AMARILLO</h6>
+                                                <h6 class="item-price">$35</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H MILANESA</h6>
+                                                <h6 class="item-price">$38</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H JAMÓN CON QUESO</h6>
+                                                <h6 class="item-price">$38</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H TOCINO Y QUESO</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H HAWAIANA</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H NORTEÑA</h6>
+                                                <h6 class="item-price">$44</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H PAQUETE 32</h6>
+                                                <h6 class="item-price">$65</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H PAQUETE 35</h6>
+                                                <h6 class="item-price">$68</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H PAQUETE 38</h6>
+                                                <h6 class="item-price">$71</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">H PAQUETE 44</h6>
+                                                <h6 class="item-price">$77</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="tab-pane fade" id="extras" role="tabpanel" aria-labelledby="profile-tab">
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4>extras</h4>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">papas a la francesa</h6>
+                                                <h6 class="item-price">$40</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">SUPER HOT DOG</h6>
+                                                <h6 class="item-price">$30</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <h4>refrescos</h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">PEPSI</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">MANZANITA</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">7UP</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">SQUIRT</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">MIRINDA</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">SANGRIA</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12">
+                                        <h4>Ingredientes </h4>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$25</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$20</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$15</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$12</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$10</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="item">
+                                            <img class="item-image hide" src="./img/pokemon-azul.jpg">
+                                            <div class="item-details">
+                                                <h6 class="item-title">ING AD</h6>
+                                                <h6 class="item-price">$6</h6>
+                                                <button class="item-button btn btn-primary addToCart"><i
+                                                        class="fas fa-plus-circle"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                </section>
+                <!-- END SECTION STORE -->
+
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <!-- START SECTION SHOPPING CART -->
+                <section class="shopping-cart">
+                    <div class="container">
+                        <!-- <h1 class="text-center">CARRITO</h1>
+            <hr> -->
+
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="shopping-cart-header">
+                                    <h6>Producto</h6>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="shopping-cart-header">
+                                    <h6 class="text-truncate">Precio</h6>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="shopping-cart-header">
+                                    <h6>Cantidad</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ? START SHOPPING CART ITEMS -->
+                        <div class="shopping-cart-items shoppingCartItemsContainer">
+                        </div>
+                        <!-- ? END SHOPPING CART ITEMS -->
+
+                        <!-- START TOTAL -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="shopping-cart-total d-flex align-items-center">
+                                    <!-- <h5 class="mb-0">Total</h5>
+                                    <h5 class="ml-4 mb-0 shoppingCartTotal">0€</h5> -->
+                                    <div class="toast ml-auto bg-info" role="alert" aria-live="assertive"
+                                        aria-atomic="true" data-delay="2000">
+                                        <div class="toast-header">
+                                            <span>✅</span>
+                                            <strong class="mr-auto ml-1 text-secondary">Se agregó a la
+                                                cuenta</strong>
+                                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast"
+                                                aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="toast-body text-white">
+                                            Se aumentó correctamente la cantidad
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-success ml-auto comprarButton d-none" type="button"
+                                        data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- END TOTAL -->
+
+                        <!-- START MODAL COMPRA -->
+                        <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="comprarModalLabel">Gracias por su compra</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Pronto recibirá su pedido</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END MODAL COMPRA -->
+
+
+                    </div>
+
+                </section>
+                <!-- END SECTION SHOPPING CART -->
+            </div>
+
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- START FOOTER -->
+
+    <!-- END FOOTER -->
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <script src="./tienda.js"></script>
+
+</body>
+
+</html>
