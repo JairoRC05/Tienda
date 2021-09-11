@@ -41,20 +41,20 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
 
   const shoppingCartRow = document.createElement('div');
   const shoppingCartContent = `
-  <div class="row shoppingCartItem">
-        <div class="col-6">
-            <div class="shopping-cart-item d-flex align-items-center h-100  border-bottom">
+  <div class="row shoppingCartItem my-3">
+        <div class="col-6 pr-0">
+            <div class="shopping-cart-item d-flex align-items-center h-100  border-bottom border-top ">
                 <img src=${itemImage} class="shopping-cart-image" style="display: none">
                 <h6 class="shopping-cart-item-title shoppingCartItemTitle text-truncate mb-0">${itemTitle}</h6>
             </div>
         </div>
-        <div class="col-2">
-            <div class="shopping-cart-price d-flex align-items-center h-100 border-bottom  ">
+        <div class="col-2 px-0">
+            <div div class = "shopping-cart-price d-flex align-items-center h-100 justify-content-start border-bottom  border-top " >
                 <h6 class="item-price mb-0 shoppingCartItemPrice">${itemPrice}</h6>
             </div>
         </div>
-        <div class="col-4">
-            <div class="shopping-cart-quantity d-flex justify-content-between align-items-center border-bottom ">
+        <div class="col-4 pl-0">
+            <div class="shopping-cart-quantity d-flex justify-content-between align-items-center border-bottom border-top px-3 ">
                 <input class="shopping-cart-quantity-input shoppingCartItemQuantity" type="number"
                     value="1">
                 <button class="btn btn-danger buttonDelete ml-0" type="button"><i class="fas fa-trash"></i></button>
