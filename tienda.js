@@ -41,7 +41,7 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
 
   const shoppingCartRow = document.createElement('div');
   const shoppingCartContent = `
-  <div class="row shoppingCartItem my-3">
+  <div class="row shoppingCartItem mb-2">
         <div class="col-6 pr-0">
             <div class="shopping-cart-item d-flex align-items-center h-100  border-bottom border-top ">
                 <img src=${itemImage} class="shopping-cart-image" style="display: none">

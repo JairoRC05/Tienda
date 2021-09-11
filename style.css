@@ -36,7 +36,6 @@
 
 /* ? SHOPPING CART */
 .shopping-cart-items {
-  padding: 20px 0px;
   text-transform: uppercase;
 }
 
@@ -75,4 +74,17 @@ img {
 
 .bg-sd {
   background-color: rgb(153, 21, 21);
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: rgb(0, 0, 0);
+  background-color: #f8f4f4;
+
+  font-weight: 600;
+}
+
+.nav-pills .nav-link {
+  color: #000;
 }

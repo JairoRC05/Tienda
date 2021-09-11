@@ -29,24 +29,27 @@
             </div>
         </nav>
 
-        <ul class="nav nav-tabs nav-justified mt-2" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
-                    aria-selected="true">Pedido</a>
-            </li>
-            <li class="nav-item" role="presentation">
-                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
-                    aria-controls="profile" aria-selected="false">Cuenta</a>
-            </li>
+        <div class="container">
+            <ul class="nav nav-pills nav-justified mt-2" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">Pedido</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">Cuenta</a>
+                </li>
 
-        </ul>
+            </ul>
+
+        </div>
         <div class="tab-content" id="myTabContent">
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
                 <!-- START SECTION STORE -->
                 <section class="store">
                     <div class="container">
-                        <ul class="nav nav-tabs nav-justified mt-3" id="myTab" role="tablist">
+                        <ul class="nav nav-pills nav-justified my-2" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="home-tab" data-toggle="tab" href="#tortas" role="tab"
                                     aria-controls="home" aria-selected="true">T</a>
@@ -955,24 +958,21 @@
                 <!-- START SECTION SHOPPING CART -->
                 <section class="shopping-cart">
                     <div class="container">
-                        <!-- <h1 class="text-center">CARRITO</h1>
-            <hr> -->
-
-
-                        <div class="row">
-                            <div class="col-6">
+                        <!-- <h1 class="text-center">CARRITO</h1> -->
+                        <div class="row mt-3">
+                            <div class="col-6 pr-0">
                                 <div class="shopping-cart-header">
                                     <h6>Producto</h6>
                                 </div>
                             </div>
-                            <div class="col-2">
-                                <div class="shopping-cart-header">
-                                    <h6 class="text-truncate">Precio</h6>
+                            <div class="col-2 px-0">
+                                <div class="shopping-cart-header d-flex justify-content-end">
+                                    <h6 class="text-truncate">$</h6>
                                 </div>
                             </div>
-                            <div class="col-4">
+                            <div class="col-4 pl-0">
                                 <div class="shopping-cart-header">
-                                    <h6>Cantidad</h6>
+                                    <h6 class="pl-3">Cant</h6>
                                 </div>
                             </div>
                         </div>
